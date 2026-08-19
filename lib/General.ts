@@ -53,7 +53,7 @@ async addemploye(){
   }
   async deleteemp() {
     await this.frame.locator(this.dropdown_search_By).selectOption({index:1});
-    await this.frame.locator(this.textbox_search_for).fill("10111");
+  await this.frame.locator(this.textbox_search_for).fill("10285");
     await this.frame.locator(this.button_search).click();
     await this.page.waitForTimeout(2000);
     await this.frame.locator(this.checkbox_delteemp).click();
