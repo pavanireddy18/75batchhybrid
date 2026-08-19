@@ -41,7 +41,7 @@ async addemploye(){
    // await this.frame.locator(this.dropdown_search_By).selectOption({index:1});
     await this.frame.locator(this.dropdown_search_By).selectOption({value:'0'});
     await this.page.waitForTimeout(2000);
-    await this.frame.locator(this.textbox_search_for).fill("10111");
+    await this.frame.locator(this.textbox_search_for).fill("10285");
     await this.frame.locator(this.button_search).click();
     await this.page.waitForTimeout(1000);
     await this.frame.locator(this.link_name).click();
