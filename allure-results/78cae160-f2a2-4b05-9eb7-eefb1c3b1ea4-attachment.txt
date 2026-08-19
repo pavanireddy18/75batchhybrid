@@ -1,0 +1,6 @@
+application got opened
+login complted
+11238
+employee got added successfully
+wait statemt got executed for 5 sec
+logout complted

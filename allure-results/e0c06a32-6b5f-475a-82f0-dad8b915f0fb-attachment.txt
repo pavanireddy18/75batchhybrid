@@ -1,0 +1,3 @@
+undefined
+application got opened
+login complted
